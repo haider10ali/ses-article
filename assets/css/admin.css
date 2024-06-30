@@ -1,0 +1,12 @@
+.articles__custom__fields {
+    padding: 20px 0px;
+}
+
+.articles__custom__fields input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.articles__custom__fields select {
+    width: 100%;
+}

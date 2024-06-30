@@ -1,0 +1,31 @@
+{
+    "packages": [
+        {
+            "name": "kenwheeler/slick",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alexander2Leb/slick.git",
+                "reference": "0c4f678ffc9c473a892aed8869cc31ce98ceedd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alexander2Leb/slick/zipball/0c4f678ffc9c473a892aed8869cc31ce98ceedd2",
+                "reference": "0c4f678ffc9c473a892aed8869cc31ce98ceedd2",
+                "shasum": ""
+            },
+            "time": "2017-04-04T19:20:42+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "source": "https://github.com/Alexander2Leb/slick/tree/master"
+            },
+            "install-path": "../kenwheeler/slick"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

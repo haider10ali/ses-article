@@ -1,0 +1,20 @@
+{
+    "name": "haider/haider",
+    "description": "a new custom wordpress plugin",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "cybrok-dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kenwheeler/slick": "dev-master"
+    }
+}

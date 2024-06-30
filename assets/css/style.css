@@ -1,0 +1,314 @@
+/* CUSTOM STYLES FOR THE FEATURED POST ON NEWS PAGE. */
+.ses__container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.ses__featured__thumbnail {
+  width: calc(65% - 20px);
+  padding: 20px;
+}
+
+.ses__featured__content {
+  width: calc(35% - 8px);
+  padding: 20px;
+}
+
+.ses__postDate {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 2.5em;
+  font-size: 12px;
+  color: #bcbcbd !important;
+}
+
+.ses__post_h5__title {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-transform: none;
+  margin: 5px 0px !important;
+}
+
+.ses__post_h5__title a {
+  text-decoration: none !important;
+  color: #000;
+}
+
+.ses__post__description {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.ses__readMore__btn {
+  color: #0dae71;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.ses__readMore__btn:hover {
+  color: #000;
+}
+
+/* CUSTOM STYLES FOR THE FEATURED POST ON HOME PAGE. */
+.ses_featured_post_home {
+  width: 35%;
+  padding: 20px;
+}
+
+.strong__post__sitename {
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #bcbcbd;
+}
+
+/* CUSTOM STYLES FOR THE UN-FEATURED POSTS ON HOME PAGE */
+.ses__unfeatured__post__home {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.ses__posts__thumbnail__home {
+  width: calc(20% - 10px);
+}
+
+.ses__post__home__content {
+  width: calc(80% - 10px);
+}
+
+.ses__post_h5__unfeatured__title {
+  font-family: Inter, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.1px !important;
+  text-transform: none !important;
+  margin: 0 !important;
+}
+
+.ses__post_h5__unfeatured__title a {
+  text-decoration: none !important;
+  color: #000;
+}
+
+.ses__post__description__unfeatured {
+  font-size: 14px;
+  color: #000;
+  margin: 0 !important;
+}
+
+.unfeatured__post__thumbnail {
+  padding-bottom: 60px;
+}
+
+.unfeatured__post__content:nth-child(1) {
+  margin-top: 0px;
+}
+
+.unfeatured__post__content:nth-child(2) {
+  margin-top: 40px;
+}
+
+.unfeatured__post__content:nth-child(3) {
+  margin-top: 50px;
+}
+
+/* MEDIA QUERY FOR THE FEATURED POST ON NEWS PAGE */
+@media only screen and (max-width: 768px) {
+  .ses__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ses__featured__thumbnail,
+  .ses__featured__content {
+    width: 100%;
+    padding: 0 0;
+  }
+
+  /* MEDIA QUERIES FOR THE FEATURED POST ON HOME PAGE */
+  .ses_featured_post_home {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  /* MEDIA QUERIES FOR THE UN FEATURED POSTS ON HOME PAGE */
+  .ses__unfeatured__post__home {
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 20px;
+    gap: 20px;
+  }
+
+  .ses__post__home__content {
+    width: 60%;
+  }
+
+  .ses__posts__thumbnail__home {
+    width: 40%;
+  }
+
+  .unfeatured__post__thumbnail {
+    padding-bottom: 100px;
+    margin: 0 0;
+  }
+
+  .unfeatured__post__content:nth-child(1) {
+    padding: 0 0;
+    margin: 0 0;
+  }
+
+  .unfeatured__post__content:nth-child(2) {
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  .unfeatured__post__content:nth-child(3) {
+    padding: 0 0;
+    margin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* MEDIA QUERIES FOR THE NEWS AND HOME PAGE FEATURED POSTS */
+  .ses__postDate {
+    font-size: 10px;
+  }
+
+  .ses__post_h5__title {
+    font-size: 18px;
+  }
+
+  .ses__post__description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* MEDIA QUERIES FOR THE UN FEATURED POSTS ON HOME PAGE */
+  .ses__post_h5__unfeatured__title {
+    font-size: 12px !important;
+  }
+
+  .ses__post__description__unfeatured {
+    font-size: 12px !important;
+  }
+}
+
+.slick-prev,
+.slick-next {
+  color: #000 !important;
+  background: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000 !important;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+.slick-dots li {
+  margin: 0 5px;
+}
+.slick-dots li button {
+  font-size: 12px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+.slick-dots li.slick-active button {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* COURSEL STYLES */
+.ses__news__posts__coursel {
+  visibility: hidden;
+}
+
+.ses__news__coursel__content {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ses__news__coursel__thumbnail img {
+  height: auto;
+  max-width: 100%;
+  max-height: 194px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.ses__news__coursel__sitelogo {
+  margin-top: 10px;
+}
+
+.ses__news__coursel__sitelogo img {
+  max-width: 123px;
+  max-height: 23px;
+  width: auto;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.ses__news__coursel__postTitle {
+  font-family: Inter, sans-serif;
+  font-size: 15px !important;
+  letter-spacing: 0.1px;
+  text-transform: none;
+  text-align: start;
+  margin: 0px !important;
+}
+
+.ses__news__coursel__postTitle a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.ses__news__coursel__postDate {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 0 !important;
+  color: #bcbcbd !important;
+}
+
+.ses__recent__media__courage {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.ses__recent__media__courage h2 {
+  font-size: 40px;
+  text-transform: none;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 49px;
+}
+
+.recent__media__content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.recentMedia {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  width: 33.3%;
+}
